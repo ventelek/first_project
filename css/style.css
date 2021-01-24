@@ -10,8 +10,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 130px;
-    background-color: gray;
+    height: 280px;
+    width: 65%;
 }
 
 .header_title {
@@ -56,7 +56,8 @@ body {
     flex-direction: column;
     align-items: center;
     background-image: url("../assets/imgs/banner.jpg");
-    padding: 50px 0;
+    background-repeat: round;
+    padding-bottom: 50px;
 }
 
 .intro_title {
@@ -73,6 +74,15 @@ body {
     margin: 40px 0px;
 }
 
+.intro_text_style {
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.intro_text_link {
+    color: yellowgreen;
+}
+
 .intro_button {
     color: white;
     text-decoration: none;
@@ -82,5 +92,115 @@ body {
     font-weight: 600;
     padding: 17px 40px;
     border-radius: 40px;
+}
+
+.main_wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    margin-top: 110px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.main_first_column {
+    width: 63%;
+}
+
+.main_second_column {
+    width: 33%;
+}
+
+.main_title_wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_title {
+    font-size: 38px;
+    letter-spacing: -0.5px;
+}
+
+.main_subtitle {
+    color: #6F6F6F;
+    letter-spacing: 2px;
+    font-size: 15px;
+}
+
+.main_img {
+    display: block;
+    margin: 50px 0 45px 0;
+    width: 100%;
+}
+
+.main_text {
+    color: #6c6c6c;
+    margin-bottom: 30px;
+    line-height: 27px;
+    font-size: 15px;
+}
+
+.main_block {
+    border-top: 1px solid #D1CFCE;
+    border-bottom: 1px solid #D1CFCE;
+    padding: 55px 0;
+    margin: 55px 0;
+}
+
+.main_block_title {
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #454445;
+    margin-bottom: 20px;
+}
+
+.main_block_desc {
+    font-size: 14px;
+    color: #525252;
+    line-height: 25px;
+}
+
+.main_links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 85px;
+}
+
+.main_link_title {
+    font-weight: 600;
+    letter-spacing: 3px;
+    color: #2C383B;
+    margin-bottom: 40px;
+}
+
+.main_link_text {
+    color: #2C383B;
+    margin-bottom: 12px;
+    display: block;
+    font-size: 14px;
+    border-bottom: 1px solid #D1CFCE;
+    padding-bottom: 12px;
+    padding-left: 9px;
+}
+
+.main_link_text:nth-child(5) {
+    border-bottom: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    background-color: #2b2b2b;
+}
+
+.footer_title {
+    color: #6c6c6c;
+    letter-spacing: 2px;
+    font-size: 12px;
 }
 /* End Intro Section */
